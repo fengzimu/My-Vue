@@ -1,9 +1,15 @@
 <template>
-  <div>
+  <div class="login-box-body">
+    <p class="login-box-msg">Sign in to Start</p>
     <form id="loginForm">
-      <input v-model="username" placeholder="Username">
-      <input v-model="password" placeholder="Password">
-
+      <div class="form-group">
+        <input class="form-control" v-model="username" placeholder="Username">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input class="form-control" v-model="password" placeholder="Password">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
       <p v-if="errors.length">
         <b>Please correct the following error(s):</b>
         <ul>
@@ -66,5 +72,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+/* @import '../../../node_modules/admin-lte/dist/css/adminlte.min.css' */
 </style>

@@ -12,8 +12,13 @@
   },
   "dependencies": {
     "admin-lte": "^3.0.5",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^5.1.2",
+    "jquery": "^3.5.1",
     "pubsub-js": "^1.9.0",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vue-router": "^3.4.3",
+    "vue-types": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
